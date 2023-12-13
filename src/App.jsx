@@ -71,7 +71,7 @@ function App() {
 			<div ref={screen} tabIndex={0} onClick={handleClick} onMouseMove={handleMouseMove} onKeyUp={handleKeyUp}
 			     className={`screen${mode ? ' editable' : ''}`}>
 
-				<img style={{opacity: '.7'}} src="https://detrasdelobjetivo.files.wordpress.com/2011/06/negativo.jpg"/>
+				<img style={{opacity: '0'}} src="https://fastly.picsum.photos/id/804/200/300.jpg?hmac=iNvnrzdzAcNx5ZKyG3JWnH4EIYwl-9Lp_4WqWA4R5mo"/>
 
 				{mode && <LeaveCommentText/>}
 
